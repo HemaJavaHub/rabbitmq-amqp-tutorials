@@ -1,4 +1,4 @@
-package org.springframework.amqp.tutorials.rabbitmqamqptutorials;
+package org.springframework.amqp.tutorials;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
