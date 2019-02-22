@@ -1,13 +1,27 @@
 # rabbitmq-amqp-tutorials
 
-## Demo, Part 1 - Introduction
-Install RabbitMQ first...
+### Tutorial 1
+
+###### Install Erlang
+
+https://www.rabbitmq.com/which-erlang.html
+
+On Mac
+```
+brew install erlang
+```
+
+On Windows
+```
+scoop install erlang
+```
+###### Install RabbitMQ
 
 https://www.rabbitmq.com/download.html
 
-Then run Part 1 of the demo at...
+###### Tutorial 1
 
-https://www.rabbitmq.com/tutorials/tutorial-one-spring-amqp.html
+https://www.rabbitmq.com/tutorials/tutorial-one-java.html
 
 To run the sender:
 ```
@@ -20,8 +34,3 @@ To run the receiver:
 java -jar build/libs/rabbitmq-amqp-tutorials-1.0.0.jar --spring.profiles.active=hello-world,receiver
 ```
 
-## Demo, Part 2 - Work Queues
-
-Part 2 of the demo...
-
-https://www.rabbitmq.com/tutorials/tutorial-two-spring-amqp.html
