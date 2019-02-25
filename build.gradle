@@ -5,7 +5,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'org.springframework.amqp.tutorials'
+group = 'org.rabbitmq.tutorials'
 version = '1.0.0'
 sourceCompatibility = '1.8'
 

@@ -1,11 +1,11 @@
-package org.rabbitmq.tutorials.tut1;
+package org.springframework.amqp.tutorials.tut1;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Profile({"tut1", "hello-world"})
+@Profile({"tut1","hello-world"})
 @Configuration
 public class Tut1Config {
 
