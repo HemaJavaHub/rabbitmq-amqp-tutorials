@@ -1,4 +1,4 @@
-package org.springframework.amqp.tutorials.tut4;
+package org.rabbitmq.tutorials.tut4;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
